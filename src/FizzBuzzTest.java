@@ -9,8 +9,14 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void FizzBuzzConverterForMultiplesOfThree(){
+    public void fizzBuzzConverterForMultiplesOfThree(){
         FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
         Assert.assertEquals("Fizz",fizzBuzzConverter.convert(3));
+    }
+
+    @Test
+    public void fizzBuzzConverterForMultiplesOfFive(){
+        FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
+        Assert.assertEquals("Buzz",fizzBuzzConverter.convert(5));
     }
 }
