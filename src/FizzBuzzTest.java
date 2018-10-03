@@ -19,4 +19,10 @@ public class FizzBuzzTest {
         FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
         Assert.assertEquals("Buzz",fizzBuzzConverter.convert(5));
     }
+
+    @Test
+    public void fizzBuzzConverterForBothThreeAndFive(){
+        FizzBuzzConverter fizzBuzzConverter = new FizzBuzzConverter();
+        Assert.assertEquals("Fizz Buzz",fizzBuzzConverter.convert(15));
+    }
 }
